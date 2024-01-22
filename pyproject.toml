@@ -1,0 +1,25 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "token_counter"
+version = "0.0.1"
+dependencies = [
+  "tiktoken >= 0.5.0",
+]
+authors = [
+  { name="jclian", email="jclian91@126.com" },
+]
+description = "A package for token count using tiktoken"
+readme = "README.md"
+requires-python = ">=3.9"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/percent4/package_python_project"
+
