@@ -43,3 +43,9 @@ from token_counter.token_count import TokenCounter
 text = "who are you?"
 print(TokenCounter().count(_input=text))
 ```
+
+输出结果：
+
+```
+4
+```
