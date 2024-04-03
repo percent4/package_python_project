@@ -6,7 +6,7 @@ build-backend = "hatchling.build"
 name = "token_counter"
 version = "0.0.1"
 dependencies = [
-  "tiktoken >= 0.5.0",
+  "tiktoken >= 0.6.0",
 ]
 authors = [
   { name="jclian", email="jclian91@126.com" },
